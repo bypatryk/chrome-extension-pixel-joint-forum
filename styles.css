@@ -1,0 +1,195 @@
+#new-paint {
+  font-size: 18px;
+  line-height: 1.4;
+  color: #333333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#new-paint a {
+  font-size: inherit;
+}
+
+#new-paint .msgContent {
+  padding: 1em;
+  font-size: 1rem;
+  max-width: 1095px;
+}
+
+#new-paint .msgContent * {
+  font-size: 1rem;
+}
+
+#new-paint .msgContent img {
+  margin: 1em 0;
+}
+
+#new-paint .lgText {
+  font-size: 2rem;
+}
+
+#new-paint .BBquote {
+  padding: 1em;
+  margin: 1em 0;
+  font-style: italic;
+  border: none;
+  background-color: #f5f5f5;
+}
+
+#new-paint .BBquote strong em {
+  margin-bottom: 1em;
+  font-size: 0.75rem;
+  font-style: normal;
+  display: inline-block;
+}
+
+.calDateCell,
+.calLedger,
+.tableRow,
+.tableTopRow,
+.tableBottomRow,
+.evenTableRow,
+.oddTableRow,
+.hiddenTableRow,
+.PMtableRow,
+.msgEvenTableRow,
+.msgEvenTableSide,
+.msgOddTableRow,
+.msgOddTableSide {
+  background-color: white !important;
+}
+
+#new-paint body {
+  background-color: #f5f5f5;
+}
+
+#new-paint a {
+  color: #FF8440;
+}
+
+#new-paint .smLink {
+  font-size: 0.65rem;
+}
+
+#new-paint #header a.nav {
+  border-right: 2px solid #333333;
+  font-size: 0.65rem;
+}
+
+#new-paint #header a.nav:last-child {
+  border-right: none;
+}
+
+#new-paint .postSeparatorTableRow {
+  height: 1rem;
+  background-color: #f5f5f5;
+}
+
+#new-paint #header table,
+#new-paint .tableBorder,
+#new-paint .basicTable {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: none;
+  background-color: transparent;
+}
+
+#new-paint .tableBorder {
+  table-layout: unset !important;
+  border-spacing: 1px !important;
+  border-color: #333333;
+}
+
+#new-paint .tableLedger {
+  height: 2rem;
+  background-color: #333333;
+  color: white;
+}
+
+#new-paint .msgEvenTableSide,
+#new-paint .msgOddTableSide,
+#new-paint .msgEvenTableRow,
+#new-paint .msgOddTableRow {
+  font-size: 0.65em;
+}
+
+#new-paint .msgEvenTableSide,
+#new-paint .msgOddTableSide {
+  padding: 1em;
+  min-width: 200px;
+  max-width: 200px;
+}
+
+#new-paint .msgEvenTableSide a:empty,
+#new-paint .msgOddTableSide a:empty {
+  display: none;
+}
+
+#new-paint .msgEvenTableSide a,
+#new-paint .msgOddTableSide a {
+  margin-bottom: 1em;
+}
+
+#new-paint .msgEvenTableSide img,
+#new-paint .msgOddTableSide img {
+  display: block;
+  margin: 1em 0;
+}
+
+#new-paint .msgEvenTableRow,
+#new-paint .msgOddTableRow {
+  padding: 1em 1rem;
+  position: relative;
+}
+
+#new-paint td.msgEvenTableRow > span,
+#new-paint td.msgOddTableRow > span {
+  float: none !important;
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#new-paint .msgLineDevider {
+  border-color: #f5f5f5;
+}
+
+#new-paint .tableSubLedger {
+  background-color: white;
+}
+
+#zoom-controls {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 1em;
+  font-size: 0.75rem;
+  background: white;
+}
+
+#zoom-controls #zoom-scale {
+  margin: 0 0.5em;
+}
+
+#zoom-controls #zoom-out,
+#zoom-controls #zoom-in {
+  outline: none;
+  border: 1px solid #333333;
+  background-color: #FF8440;
+  color: white;
+  cursor: pointer;
+}
+
+#zoom-controls #zoom-out:hover,
+#zoom-controls #zoom-in:hover {
+  background-color: #FF7430;
+}
+
+#zoom-controls #zoom-out:disabled,
+#zoom-controls #zoom-in:disabled {
+  background-color: #f5f5f5;
+  color: #333333;
+  cursor: initial;
+}

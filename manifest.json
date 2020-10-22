@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "PixelJoint Global Zoom",
+  "version": "1.0.0",
+  "description": "Global zooming for PixelJoint Forum with fresh CSS styles",
+  "permissions": [
+    "storage"
+  ],
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": [
+      "http://pixeljoint.com/forum/*",
+      "https://pixeljoint.com/forum/*"
+    ]
+  }],
+  "icons": {
+    "128": "images/128.png"
+  }
+}
