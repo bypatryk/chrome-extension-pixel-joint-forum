@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
 
-  "name": "PixelJoint Global Zoom",
+  "name": "Pixel Joint Better Zooming",
   "version": "1.0.0",
-  "description": "Global zooming for PixelJoint Forum with fresh CSS styles",
+  "description": "Unofficial Google Chrome extension, which allows to globally set scale of zoomable images on Pixel Joint Forum (pixeljoint.com/forum) and reworks CSS styles for better readability.",
   "permissions": [
     "storage"
   ],
