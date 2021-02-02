@@ -118,5 +118,7 @@ class ZoomControls {
   }
 }
 
-const zoomControls = new ZoomControls(document.body)
-zoomControls.setup()
+window.addEventListener('load', () => {
+  const zoomControls = new ZoomControls(document.body)
+  zoomControls.setup()
+})
